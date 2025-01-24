@@ -16,7 +16,7 @@ body {
 }
 
 .card {
-    display: flex;
+    display: grid;
     background-color: bisque;
     border-radius: 20px;
     justify-content: space-evenly;
@@ -43,7 +43,6 @@ body {
 
 
 .button {
-    /* Цвет фона кнопки */
     font-family: arial black;
     align-items: center;
     justify-content: center;
@@ -58,7 +57,6 @@ body {
 }
 
 .button:hover {
-    /* Изменение цвета фона кнопки при наведении */
     box-shadow: 0px 0px 10px 1px rgb(4, 161, 197);
 }
 
